@@ -1,0 +1,1520 @@
+@charset "utf-8";
+/* CSS Document */
+#contents{margin:20px 0 3em;}
+@media screen and (max-width:768px) {#contents{margin:15px 0 2em;}}
+.sp{display:none;}
+@media screen and (max-width: 480px) {.sp{display:inline;}.pc{display:none;}}
+#mtitle{
+position:relative;
+text-align:center;
+color:#fff;
+margin:0 20px;
+height:calc(100vh - 95px);
+font-size:1em;
+line-height:1;
+z-index:3;
+}
+#mtitle small{
+font-weight:700;
+display:inline-block;
+margin-right:0.5em;
+font-size:1rem;
+}
+#smart #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y618.jpg) center center;
+background-size:cover;
+}
+#welcome #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y26.jpg) center center;
+background-size:cover;
+}
+#message #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y739.jpg) center center;
+background-size:cover;
+}
+#yngwdata #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y43.jpg) center center;
+background-size:cover;
+}
+#policy #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y45.jpg) center center;
+background-size:cover;
+}
+#concept #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y55.jpg) center center;
+background-size:cover;
+}
+#dna #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y79.jpg) center center;
+background-size:cover;
+}
+#history #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y85.jpg) center center;
+background-size:cover;
+}
+#mtitle > span{
+position:absolute;
+left:75px;
+bottom:75px;
+text-align:left;
+}
+#mtitle > span span{display:block;}
+#mtitle > span span:nth-of-type(1){
+font-family:'Asap';
+font-weight:400;
+line-height:1;
+font-size:0.85em;
+padding-bottom:0.75em;
+letter-spacing:0.05em;
+}
+#mtitle > span span:nth-of-type(2){
+font-weight:900;
+font-size:2.85em;
+line-height:1.2;
+}
+#welcome #mtitle{text-align:center;}
+#welcome #mtitle > span{
+font-family:'Asap';
+font-weight:700;
+position:absolute;
+bottom:5em;
+left:50%;
+transform: translateX(-50%) ;
+}
+#welcome #mtitle img{
+display:block;
+margin:0 auto;
+width:130px;
+height:auto;
+margin-bottom:1em;
+}
+#welcome #mtitle > span span{display:block;}
+#welcome #mtitle > span > span:nth-of-type(1){
+font-size:3.25em;
+font-family:'Asap';
+font-weight:700;
+}
+#welcome #mtitle > span > span:nth-of-type(2){
+font-size:6.5em;
+margin-top:-0.5em;
+}
+#welcome #mtitle > span > span:nth-of-type(3){
+font-size:1.45em;
+padding-left:0.25em;
+}
+#message #main_title{
+display:flex;
+justify-content:space-between;
+align-items:flex-end;
+}
+#message #main_title h2{
+font-weight:900;
+font-size:3.25em;
+line-height:1.25;
+margin:0 0 0.2em -0.05em;
+}
+#message #main_title div p{
+font-size:1.15em;
+margin-bottom:2em;
+}
+#message #main_title span{
+font-family:'Asap';
+font-weight:400;
+}
+#message  #main_title p img{
+width:230px;
+height:auto;
+}
+#message #main_box p{
+width:100%;
+font-weight:900;
+font-size:1.2em;
+line-height:2.5;
+}
+#message #main_box p > span > span{
+display:inline-block;
+font-size:1.75em;
+line-height:1.75;
+}
+#message #main_box p img{
+width:100%;
+height:auto;
+display:block;
+margin-bottom:2em;
+}
+
+#message #main_box p img.harf2{
+    width:50%;
+    height:auto;
+    display:block;
+    margin-bottom:2em;
+    }    
+
+#message #main_box p span span.left_q{margin-left:-0.6em;}
+#message #main_box p span span.right_q{
+margin-right:-0.4em;
+display:inline-block;
+}
+
+#message #main_box p img.harf1{
+width:48%;
+height:auto;
+display:inline-block;
+margin:1rem 4% 2em 0;
+}    
+
+#message #main_box p img.harf2{
+width:48%;
+height:auto;
+display:inline-block;
+margin:1rem 0 2em;
+}       
+            
+.spbr{display:none;}
+#yngwdata #main dl{font-weight:900;}
+#yngwdata #main dt{
+font-size:1.5em;
+margin-bottom:0.5em;
+}
+#yngwdata #main dd{
+font-weight:700;
+margin-bottom:4em;
+font-size:1.25em;
+margin-left:1.5em;
+line-height:2;
+}
+#yngwdata #main dd span{
+font-family:'Asap';
+font-weight:500;
+font-size:0.8em !important;
+}
+#yngwdata #main dd#song  span{
+font-family:'Noto Sans Japanese';
+font-weight:400;
+}
+small{
+display:inline-block;
+font-weight:400;
+font-size:0.7em;
+}
+#song span{
+font-weight:400;
+display:block;
+margin-bottom:1em;
+}
+#emblem span{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y15.jpg);
+display:block;
+text-align:center;
+padding:7em 0;
+}
+#emblem span img{
+width:70%;
+height:auto;
+}
+#yngwdata dd:nth-of-type(4) br{display:none;}
+#map2{
+display:block; 
+height: 500px;
+width:100%;
+margin:-3.5em auto 0;
+padding:0;
+}
+#policy #main dl{font-weight:900;}
+#policy dt{
+font-size:2.75em;
+margin-bottom:0.25em;
+}
+#policy_data{
+margin-top:2rem;
+}
+#policy  #policy_data dt:nth-last-of-type(1){
+font-size:1.5em;
+margin-bottom:0.5em;
+margin-left:0;
+}
+
+#policy dt:nth-of-type(1){margin-left:-0.5em;}
+#policy dd{
+font-weight:700;
+margin-bottom:4.5em;
+font-size:1.25em;
+line-height:2.25;
+text-align:justify;
+}
+#policy #policy_data dd:nth-of-type(2){
+line-height: 1.5;
+padding:0 2rem 0.5rem 2rem;
+background:#F7F3E6;
+text-align: left;
+margin-bottom: 0;
+}
+#policy_data dd > span{
+display: inline-block;
+font-size:280%;
+margin-left:0.5rem;
+}
+#policy_data dd > span span{
+font-size:70%;
+}
+#policy #policy_data dd:nth-of-type(1){
+display: flex;
+margin:0;
+
+}
+#policy #policy_data dd:nth-of-type(1) img{
+width:33.33%;
+margin:0;
+}
+@media screen and (max-width:768px) {
+#policy_data{
+margin-top:1rem;
+}
+}
+@media screen and (max-width:480px) {
+#policy  #policy_data dt:nth-last-of-type(1){
+font-size:1.25em;
+} 
+#policy #policy_data dd:nth-of-type(2){
+line-height: 1.2;
+padding:0.5rem 1rem 0.5rem 1rem;
+}  
+#policy_data dd > span{
+font-size:280%;
+margin-left:0;
+} 
+#policy #policy_data dd:nth-of-type(1) img{
+width:50%;
+} 
+#policy #policy_data dd:nth-of-type(1) img:nth-of-type(3){
+display: none;
+}
+}
+#policy dd:nth-last-of-type(1){margin-bottom:0;}
+#policy dt small{
+display:inline-block;
+font-weight:700;
+font-size:0.3em;
+margin-left:-1em;
+}
+#policy dd img{
+width:100%;
+height:auto;
+display:block;
+margin-top:1em;
+}
+#policy dd img+img+img{margin-top:0;}
+#policy dd img.sp{display:none;}
+#concept #mtitle > span span:nth-of-type(2) br{display:none;}
+@media screen and (max-width:1200px) {
+#message #main_title h2{font-size:2.8em;}
+#message #main_title div p{margin-bottom:3em;}
+#message  #main_title p img{
+width:200px;
+height:auto;
+}
+}
+@media screen and (max-width:1024px) {
+#message #main_title{
+display:block;
+text-align:center;
+}
+#message #main_title h2{
+text-align:center;
+margin:0 0 0.2em;
+font-size:2.75em;
+}
+#message  #main_title p img{
+width:180px;
+height:auto;
+}
+#message #main_title div p{margin-bottom:1em;}
+#message #main_box p img{margin-bottom:1em;}
+#message #main_box p{
+font-size:1em;
+line-height:2.5;
+}
+#message #main_box p > span > span{
+font-size:1.7em;
+line-height:1.5;
+}
+#yngwdata dd:nth-of-type(4) br{display:inline;}
+#policy dt{
+font-size:2.25em;
+margin-bottom:0.1em;
+}
+#policy dd{
+margin-bottom:2em;
+font-size:1.15em;
+line-height:2.25;
+text-align:justify;
+}
+}
+@media screen and (max-width:768px) {
+#mtitle{
+margin:0 15px;
+height:calc(100vh - 160px);
+font-size:0.7em;
+}
+#welcome #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y27.jpg) center center;
+background-size:cover;
+}
+#message #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y740.jpg) center center;
+background-size:cover;
+}
+#yngwdata #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y44.jpg) center center;
+background-size:cover;
+}
+#policy #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y46.jpg) center center;
+background-size:cover;
+}
+#smart #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y618.jpg) 90% center;
+background-size:cover;
+}
+#concept #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y56.jpg) center center;
+background-size:cover;
+}
+#dna #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y80.jpg) center center;
+background-size:cover;
+}
+#history #mtitle{
+background:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y86.jpg) center center;
+background-size:cover;
+}
+#welcome #mtitle img{
+width:100px;
+height:auto;
+}
+#mtitle > span{
+left:30px;
+bottom:30px;
+}
+#mtitle > span span:nth-of-type(1){font-size:1.5em;}
+#mtitle > span span:nth-of-type(2){font-size:3.25em;}
+#message #main_box p{
+font-size:1.25em;
+line-height:2.5;
+}
+#message #main_box p > span > span{
+font-size:1.85em;
+line-height:1.7;
+}
+.spbr{display:inline;}
+.pcbr{display:none;}
+#yngwdata #main dt{
+font-size:1.25em;
+margin-bottom:0.25em;
+}
+#yngwdata #main dd{
+margin-bottom:2em;
+font-size:1em;
+margin-left:0;
+line-height:2;
+}
+#yngwdata #main dd:nth-last-of-type(1){margin-bottom:0;}
+#yngwdata #main dd#map2{
+height:300px;
+width:90%;
+margin:-1em 0 2em 5%;
+display:block;
+}
+}
+@media screen and (max-width:480px){
+#policy dd img.pc{display:none;}
+#policy dd img.sp{display:block;}
+#policy dt:nth-of-type(1){position:relative;}
+#policy dt small{
+display:block;
+position:absolute;
+top:-1em;
+left:4em;
+}
+#policy dt:nth-of-type(1) .right_q{margin-right:-0.7em;}
+#concept #mtitle > span span:nth-of-type(2) br{display:inline;}
+#message #main_title h2{font-size:2.25em;}
+#message #main_title div p{font-size:1.05em;}
+#message #main_box p{
+text-align:justify;
+font-size:1.25em;
+line-height:2;
+}
+#message #main_box p span,#message #main_box p span span{display:inline;}
+#message #main_box p > span > span{
+font-size:1em;
+line-height:2;
+}
+#message #main_box p br{display:none;}
+#message  #main_title p small{display:none;}
+#policy dd{
+margin-bottom:2em;
+font-size:1em;
+line-height:2;
+font-weight:500;
+}
+#welcome #mtitle > span > span:nth-of-type(1){font-size:3.2em;}
+#yngwdata #main dd span{font-size:0.5em !important;}
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+#mtitle{
+margin:0 15px;
+height:calc(100vh - 120px);
+}
+#welcome #mtitle > span{font-size:1.5em;}
+#welcome #mtitle img{width:140px;}
+#mtitle{font-size:1em;}
+#mtitle > span{
+left:75px;
+bottom:75px;
+}
+#mtitle > span span:nth-of-type(1){font-size:1em;}
+#message  #main_title p img{
+width:250px;
+height:auto;
+}
+#message #main_title h2{
+text-align:center;
+margin:0 0 0.2em;
+font-size:3.5em;
+}
+#message #main_box p{
+font-size:1.25em;
+line-height:2.5;
+}
+#message #main_box p > span{
+display:block;
+margin:0 auto;
+width:70%;
+}
+
+
+#welcome #mtitle > span{font-size:1em;}
+#welcome #mtitle > span > span:nth-of-type(1){font-size:3.2em;}
+#yngwdata #main dt,
+#yngwdata #main dd{margin-left:15%;}
+#yngwdata #main dd#emblem{
+margin-left:5%;
+margin-top:1em;
+width:90%;
+}
+#yngwdata #main dd#map2{
+margin-left:5%;
+margin-top:-1em;
+}
+}
+#contents_box{
+position:relative;
+display:flex;
+width:100%;
+max-width:1442px;
+margin:4em auto 0;
+}
+#contents_box nav{
+position:absolute;
+top:0;
+left:0;
+order: 1;
+font-size:0.7em;
+line-height:1;
+width:20%;
+padding-left:20px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+z-index:99;
+}
+#contents_box nav h3{
+font-size:1.2em;
+margin-bottom:1em;
+position:relative;
+padding-left:0.75em;
+}
+#contents_box nav h3:before{
+display:block;
+content: '';
+width:0.25em;
+height:1em;
+background:#000;
+position:absolute;
+top:0;
+left:0;
+}
+#contents_box nav ul{margin-bottom:2em;}
+#contents_box nav li a{
+display:inline-block;
+padding:1em;
+font-weight:400;
+}
+#contents_box nav li a:hover{
+color:#000;
+transform: translateX(1em) ;
+-webkit-transition: all .3s;
+transition: all .3s;
+}
+#side_p{
+display:inline-block;
+position:fixed;
+z-index:0;
+top:50%;
+right:9%;
+font-size:0.7em;
+font-family:'Asap';
+font-weight:300;
+letter-spacing:0.1em;
+transform: translateY(-50%) ;
+-webkit-writing-mode: vertical-rl;
+-ms-writing-mode: tb-rl;
+writing-mode: vertical-rl;
+}
+
+/*------------------該当ページナビ処理------------------*/
+/*--左ブロックナビ--*/
+
+#history #contents_list li:nth-of-type(8) a,
+#dna #contents_list li:nth-of-type(7) a,
+#concept #contents_list li:nth-of-type(6) a,
+#smart #contents_list li:nth-of-type(5) a,
+#policy #contents_list li:nth-of-type(4) a,
+#message #contents_list li:nth-of-type(2) a,
+#welcome #contents_list li:nth-of-type(1) a,
+#yngwdata #contents_list li:nth-of-type(3) a{
+font-weight:700;
+margin-left:1em;
+font-size:1.1em;
+}
+#history #contents_list li:nth-of-type(8) a:hover,
+#dna #contents_list li:nth-of-type(7) a:hover,
+#concept #contents_list li:nth-of-type(6) a:hover,
+#smart #contents_list li:nth-of-type(5) a:hover,
+#policy #contents_list li:nth-of-type(4) a:hover,
+#message #contents_list li:nth-of-type(2) a:hover,
+#welcome #contents_list li:nth-of-type(1) a:hover,
+#yngwdata #contents_list li:nth-of-type(3) a:hover{transform: translateX(0);}
+
+/*------------------該当ページナビ処理------------------*/
+#contents_list li:nth-of-type(5) br,#contents_list li:nth-of-type(6) br{display:none;}
+@media screen and (max-width:480px) {#contents_list li:nth-of-type(5) br,#contents_list li:nth-of-type(6) br{display:inline;}}
+#main{
+z-index:0;
+order: 2;
+margin:0;
+width:100%;
+margin:-15px auto 0;
+}
+#main > div{
+display:block;
+width:100%;
+margin:0 auto;
+}
+#main > div > section{
+display:block;
+width:60%;
+margin:0 auto;
+max-width:865px;
+}
+#main > section{
+display:block;
+width:60%;
+max-width:865px;
+margin:0 auto;
+position:relative;
+}
+#welcome #main h2{
+font-size:5em;
+line-height:1.2;
+font-family:'Noto Sans Japanese';
+font-weight:900;
+margin-bottom:0.25em;
+}
+#welcome #main p{
+font-size:1.75em;
+line-height:1.75;
+font-family:'Noto Sans Japanese';
+font-weight:900;
+margin-bottom:1em;
+}
+#welcome #main ul{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+align-items:center;
+}
+#welcome #main li{
+width:100%;
+margin-bottom:1em;
+font-family:'Noto Sans Japanese';
+font-weight:900;
+font-size:2em;
+line-height:1.75;
+text-align:center;
+}
+#welcome #main li.harf{
+width:48%;
+text-align:left;
+font-size:1.75em;
+line-height:1.75;
+}
+img.harf2{
+display: inline-block;
+width:48%;
+height: auto;
+}
+img.harf3 {
+width:48%;
+height: auto;
+margin-top:1rem;
+}  
+img.harf4 {
+margin-left:4%;
+}  
+#welcome #main li img{
+width:100%;
+height:auto;
+}
+#concept #main > section{padding-bottom:4rem;}
+#concept #main > section > h2{
+font-weight:900;
+font-size:7rem;
+line-height:1.2;
+letter-spacing:0.5rem;
+margin-bottom:1.5rem;
+}
+#concept #main > section > dl{font-weight:900;line-height:1.75;}
+#concept #main > section > dl dt{
+font-size:1.25em;
+margin-bottom:1em;
+}
+#concept #main > section > dl dd{
+font-size:1.15em;
+line-height:2;
+text-align:justify;
+}
+#concept #main > section > dl dd img{
+display:block;
+margin:1rem auto;
+width:100%;
+height:auto;
+}
+#concept #main > section > dl dd h2{
+font-weight:900;
+font-size:1.75em;
+}
+#concept #main > section > dl dd p{font-weight:700;}
+.br{display:none;}
+#smart #main > section > h2{
+font-weight:900;
+font-size:7rem;
+line-height:1.2;
+letter-spacing:0.5rem;
+margin-bottom:1.5rem;
+}
+#smart #main > section > dl{font-weight:900;line-height:1.75;}
+#smart #main > section > dl dt{
+font-size:1.25em;
+margin-bottom:1em;
+}
+#smart #main > section > dl dd{
+font-size:1.15em;
+line-height:2;
+text-align:justify;
+margin-bottom:0rem;
+}
+#pointx,
+#smarted{
+margin:10rem auto 0
+}
+#pointx h2,
+#smarted h2{
+margin-bottom:2rem;
+font-size:110%;
+text-align: center;
+font-weight: 900;
+line-height: 1;
+letter-spacing: 0.2rem;
+}
+#smarted > p:nth-of-type(1){
+width:50%;
+text-align: center;
+margin-bottom:7rem!important; 
+}
+#smarted > p:nth-of-type(1) img{
+width:100%;
+height: auto;
+}
+
+#smarted dt{
+margin-bottom:0!important; 
+color:#7ca400;
+letter-spacing: 0.1rem;
+}
+#smarted dd{
+font-size:1.15rem !important;
+}
+@media (max-width:760px){
+#pointx,
+#smarted{
+margin:5rem auto 0
+}
+#pointx h2,
+#smarted h2{
+margin-bottom:1.5rem;
+}
+#smarted > p:nth-of-type(1){
+margin-bottom:3rem!important; 
+width:40%;
+}
+}
+@media (max-width:480px){
+#pointx,
+#smarted{
+margin:3rem auto 0
+}
+#smarted dt{
+font-size:1.2rem!important;
+}
+#smarted dd{
+font-size:1rem !important;
+}
+#smarted > p:nth-of-type(1){
+margin-bottom:2rem!important; 
+}
+}
+#smart #main > section > dl dd > span.left_q{margin-left:-0.4em;display:inline-block;}
+#smart #main > section > dl dd > span.right_q{margin-right:-0.4em;display:inline-block;}
+#smart #main > section > dl small{
+display:inline-block;
+margin-top:0.25rem;
+line-height:1.7;
+}
+#smart #main > section > dl p{
+position:relative;
+}
+#smart #main > section > dl dd:nth-of-type(1) p img{
+width:100%;
+height:auto;
+}
+#smart #main > section > dl p{
+margin:1rem auto;
+text-align:center;
+}
+#smart #main > section > dl p img{
+width:100%;
+height:auto;
+}
+
+#smart #main > section > dl dd:nth-of-type(3) p:nth-of-type(1) img{
+width:40%;
+height:auto;
+margin:0 0 7rem;
+}
+@media (max-width:760px){
+#smart #main > section > dl dd:nth-of-type(3) p:nth-of-type(1) img{
+width:30%;
+margin:0 0 3rem;
+}
+}
+@media (max-width:480px){
+#smart #main > section > dl dd:nth-of-type(3) p:nth-of-type(1) img{
+margin:0 0 1rem;
+}
+}
+
+
+#smart #main > section > dl p:nth-of-type(2) img{
+width:100%;
+height:auto;
+}
+#smart #main > section > dl p small{
+position:absolute;
+right:0.5rem;
+bottom:0.5rem;
+color:#999;
+font-weight:300;
+font-size:50%;
+}
+#smart #main > section > dl h3{
+font-weight:900;
+font-size:2rem;
+line-height:1.3;
+margin:2rem 0 0.5rem;
+}
+#smart #main > section > dl h3 small{
+display:inline-block;
+vertical-align:top;
+padding-top:0.1rem;
+margin:0 0.25rem;
+}
+@media (min-width:1050px){
+#smart #main > section > dl h3 br{
+display:none;
+}
+}
+@media (min-width:768px) and (max-width:1050px) {
+#concept #main > section > dl dt{font-size:1.2em;}
+#smart #main > section > dl dt{font-size:1.2em;}
+.br{display:inline;}
+}
+
+@media (max-width:1050px){
+#concept #main > section > h2{font-size:5rem;}
+}
+
+@media (max-width:1050px){
+#smart  #main > section > h2{font-size:5rem;}
+}
+
+@media (max-width:768px){
+#concept #main > section{padding-bottom:2rem;}
+#smart #main > section{padding-bottom:0;}
+}
+@media (max-width:480px){
+#concept #main > section{padding-bottom:2rem;}
+#concept #main > section > dl dt{margin-bottom:1em;}
+#smart #main > section{padding-bottom:0;}
+#smart #main > section > dl dt{margin-bottom:1em;}
+}
+@media (max-width:620px){
+#concept #main > section > dl dt{text-align:justify;}
+#smart #main > section > dl dt{text-align:justify;}
+#smart #main > section > dl dt br{display:none;}
+}
+@media (max-width:500px){
+#concept #main > section > h2{
+font-size:4rem;
+letter-spacing:0.2rem;
+}
+#smart #main > section > h2{
+font-size:4rem;
+letter-spacing:0.2rem;
+}
+}
+@media (max-width:400px){
+#concept #main > section > h2{font-size:3rem;}
+#smart #main > section > h2{font-size:3rem;}
+}
+#main > div{
+padding:4em 0;
+background-image:
+linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)),
+linear-gradient(to right, rgba(255, 255, 255, 1), 10%, rgba(255, 255, 255, 0)),
+linear-gradient(to left, rgba(255, 255, 255, 1), 10%, rgba(255, 255, 255, 0)),
+url('https://www.yanagawa.ed.jp/img/y55.jpg/img/y15.jpg');
+}
+#main > div:nth-last-of-type(1){padding:4em 0 0;}
+#dna #main > div:nth-last-of-type(1){padding:2em 0;}
+#dna #main > div:nth-last-of-type(1){padding:2em 0 0;}
+#dna #main > section{margin-bottom:4em;}
+.dna_title{
+margin-top:10px;
+display:flex;
+justify-content:space-between;
+}
+#main div section .dna_title{
+margin-top:0;
+align-items: center;
+}
+.dna_title > p{width:48%;}
+.dna_title img{
+width:100%;
+height:auto;
+}
+.dna_num{
+white-space: nowrap;
+font-family:'Asap';
+font-weight:700;
+font-size:1.25em;
+margin-bottom:0.25em;
+}
+#dna #main h2{
+font-weight:900;
+font-size:2.15em;
+line-height:1.4;
+margin-bottom:1rem;
+}
+#dna #main > div h2{font-size:2.7em;}
+#dna_name{
+font-size:1em;
+margin:1em 0 3em;
+font-weight:800;
+}
+#dna #main h3{
+font-size:1em;
+margin:-5em 0 3em;
+font-weight:800;
+}
+#dna #main h3{
+font-size:1em;
+margin:-5em 0 3em;
+font-weight:800;
+}
+#dna #main h3 span,#dna_name span{
+display:block;
+font-size:1.5em;
+}
+#dna #main .dna_con h2{
+font-size:2rem;
+}
+.dna_con p{
+text-align:justify;
+line-height:2;
+font-weight:700;
+margin-bottom:1em;
+}
+.dna_con p img{
+width:100%;
+height:auto;
+}
+.dna_con section p{width:100% ;}
+#gr{width:100%;}
+#history #main h2{
+font-weight:900;
+font-size:2.75em;
+margin-bottom:0.5em;
+}
+#history #main > div:nth-last-of-type(1){padding:1em 0 0;}
+#history table{
+width:100%;
+text-align:left;
+font-weight:700;
+margin-bottom:2em;
+}
+#history th,#history td{padding-top:1.5em;}
+#history th{width:4em;}
+td:nth-of-type(1){width:6em;}
+#history table img{
+width:80%;
+height:auto;
+margin-top:0.5em;
+}
+@media (min-width:1200px) and (max-width:1442px) {
+#dna #main h2{font-size:2.5em;}
+}
+@media (min-width:768px) and (max-width:1020px) {
+#dna #main h2{font-size:2em;}
+.dna_title > p{width:40%;}
+#dna #main h3{margin:-1em 0 1em;}
+}
+@media screen and (max-width:1442px) {
+#main > div{
+background-image:
+linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)),url('https://www.yanagawa.ed.jp/img/y55.jpg/img/y15.jpg');
+}
+}
+.global_title{
+font-family:'Asap';
+font-weight:700;
+font-size:1.25em;
+margin-bottom:0.5em;
+}
+.global_title br{display:none;}
+#concept #main div img{
+display:block;
+width:100%;
+height:auto;
+}
+#concept #main > div dt{
+font-weight:900;
+font-size:2.25em;
+}
+#concept #main > section h2 + dl dt{
+font-size:200%;
+line-height: 1.5;
+margin-bottom:1rem;
+}
+#concept #main > div dt img{margin-top:0.5em;}
+#concept #main > div  dd{
+text-align:justify;
+line-height:1.7;
+}
+#concept #main > div dd img{margin-top:1em;}
+small.cap{
+display:block;
+margin:0.5em 0;
+}
+#concept #main > div h3{
+font-weight:900;
+font-size:1.75em;
+margin-top:1em;
+}
+#concept #main > div h3 span{
+display:inline-block;
+font-size:0.7em;
+color:#FF3B7E;
+border:2px solid #FF3B7E;
+padding:0 0.5em;
+margin-right:0.5em;
+border-radius:5px;
+vertical-align:middle;
+margin-bottom:0.25em;
+}
+#smart #main div img{
+display:block;
+width:100%;
+height:auto;
+}
+#smart #main > div dt{
+font-weight:900;
+font-size:2.25em;
+}
+#smart #main > div  dd{
+text-align:justify;
+line-height:1.7;
+}
+#smart #main > div dd img{margin-top:1em;}
+#smart #main > div h3{
+font-weight:900;
+font-size:1.75em;
+margin-top:1em;
+}
+#voice dt{
+font-size:2em !important;
+line-height:1.4;
+margin-bottom:0.5em;
+}
+#voice dd{
+display:flex;
+justify-content:space-between;
+}
+#voice dd:nth-of-type(1) p:nth-of-type(1){
+width:60%;
+line-height:2;
+}
+#voice dd:nth-of-type(1) p:nth-of-type(1) span{
+display:block;
+font-weight:700;
+margin-top:0.5em;
+}
+#voice dd:nth-of-type(1) p:nth-of-type(1) span span{
+font-size:1.15em;
+line-height:1.5;
+margin-top:0;
+}
+#voice dd:nth-of-type(1) p:nth-of-type(2){width:35%;}
+#concept #main > div #voice dd p:nth-of-type(2) img{
+width:100%;
+height:auto;
+margin-top:0.25em;
+}
+#voice dd:nth-of-type(2) span{width:48%;}
+#current h2{
+font-weight:900;
+font-size:2.25em;
+margin-bottom:0.25em;
+}
+#current p{
+font-size:1em !important;
+font-family:'Noto Sans Japanese'!important;
+font-weight:500!important;
+line-height:1.7!important;
+text-align:justify;
+}
+#current ul li{
+font-size:1.5em;
+font-weight:900;
+margin-top:2em;
+}
+#current li li{
+display:flex;
+justify-content:space-between;
+align-items:flex-start;
+margin-top:0.4em !important;
+}
+#current li:nth-of-type(1) li:nth-of-type(2) img,
+#current li:nth-of-type(2) li:nth-of-type(2) img,
+#current li:nth-of-type(3) li:nth-of-type(2) img,
+#current li:nth-of-type(4) li:nth-of-type(2) img{
+width:32% !important;
+height:auto;
+}
+#concept #main #current li:nth-of-type(1) li:nth-of-type(2) img:nth-of-type(1){
+display:none;
+}
+@media screen and (max-width:480px) {
+#current li:nth-of-type(1) li:nth-of-type(2) img,
+#current li:nth-of-type(2) li:nth-of-type(2) img,
+#current li:nth-of-type(3) li:nth-of-type(2) img,
+#current li:nth-of-type(4) li:nth-of-type(2) img{
+width:48% !important;
+height:auto;
+}
+#concept #main #current li:nth-of-type(1) li:nth-of-type(2) img:nth-of-type(1){
+display:block;
+}
+#concept #main #current li:nth-of-type(1) li:nth-of-type(1),
+#concept #main #current li:nth-of-type(1) li:nth-of-type(2) img:nth-of-type(2),
+#concept #main #current li:nth-of-type(1) li:nth-of-type(2) img:nth-of-type(3),
+#concept #main #current li:nth-of-type(2) li:nth-of-type(1),
+#concept #main #current li:nth-of-type(2) li:nth-of-type(2) img:nth-of-type(2),
+#concept #main #current li:nth-of-type(3) li:nth-of-type(1),
+#concept #main #current li:nth-of-type(3) li:nth-of-type(2) img:nth-of-type(3),
+#concept #main #current li:nth-of-type(4) li:nth-of-type(1),
+#concept #main #current li:nth-of-type(4) li:nth-of-type(2) img:nth-of-type(3)
+{
+display:none;
+}
+}
+#global_banner a{
+position:relative;
+color:#fff;
+display:block;
+height:400px;
+background-image:url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y78.jpg);
+background-size:cover;
+background-position:center center;
+}
+#global_banner a:hover{background-image:linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://www.yanagawa.ed.jp/img/y55.jpg/img/y78.jpg);}
+#global_banner span{
+display:block;
+font-weight:900;
+}
+#global_banner > a > span:nth-of-type(1){
+position:absolute;
+top:20px;
+left:20px;
+font-size:2em;
+line-height:1.25;
+}
+#global_banner #global_box{
+position:absolute;
+right:20px;
+bottom:20px;
+display:flex;
+align-items: center;
+}
+#global_box i{
+margin-right:0.25em;
+font-size:3.25em;
+}
+#global_box > span > span:nth-of-type(1){
+font-size:1em;
+font-family:'Asap';
+font-weight:500;
+}
+#global_box > span > span:nth-of-type(2){font-size:1.4em;}
+#global_banner a:hover span{color:#fff;}
+@media screen and (min-width:1442px) {#global_banner a{height:500px;}}
+@media screen and (max-width:1024px) {#welcome #main li.harf{font-size:1.3em;}}
+@media screen and (max-width: 768px) {
+#main{
+width:100%;
+margin:0 15px;
+}
+#main > div > section{
+display:block;
+width:100%;
+padding:0 5%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+#main > div:nth-last-of-type(1){padding:2em 0 0;}
+#main > section{width:100%;}
+#main h3{font-size:1.5em;}
+#main > ul{margin:20px 0 0;}
+#main > ul li{width:48.5%;}
+#page_navi ul{margin:0 auto;}
+#page_navi li{margin:0.2em;}
+#page_navi li a,
+#page_navi li span{
+display:block;
+width:2.5em;
+height:2.5em;
+text-align:center;
+line-height:2.5;
+}
+#contents_box{
+display:flex;
+flex-wrap: wrap;
+width:100%;
+margin:1em auto 0;
+position:relative;
+}
+#contents_box > nav{
+position:relative;
+width:100%;
+padding-left:0;
+font-size:0.8em;
+}
+#contents_box > nav ul{
+margin:0 15px 1em;
+display:flex;
+flex-wrap: wrap;
+}
+#contents_box > nav li{
+display:block;
+font-size:0.9em;
+font-weight:500;
+width:24.4%;
+background:#000;
+color:#fff;
+margin:0 0.8% 0.8% 0;
+display:flex;
+justify-content:center;
+align-items: center;
+}
+#concept #main > section > dl dd h3{margin:0.75em 0;}
+#voice dt{font-size:1.75em !important;}
+#voice dt br{display:none;}
+#current h2{
+font-size:2em;
+margin-bottom:0.2em;
+}
+#current ul li{
+font-size:1.25em;
+margin-top:1em;
+}
+/*--上ブロックナビ--*/
+#history #contents_list li:nth-of-type(8) a,
+#history #contents_list li:nth-of-type(8),
+#dna #contents_list li:nth-of-type(7) a,
+#dna #contents_list li:nth-of-type(7),
+#concept #contents_list li:nth-of-type(6) a,
+#concept #contents_list li:nth-of-type(6),
+#smart #contents_list li:nth-of-type(5) a,
+#smart #contents_list li:nth-of-type(5),
+#policy #contents_list li:nth-of-type(4) a,
+#policy #contents_list li:nth-of-type(4),
+#message #contents_list li:nth-of-type(2) a,
+#message #contents_list li:nth-of-type(2),
+#welcome #contents_list li:nth-of-type(1) a,
+#welcome #contents_list li:nth-of-type(1) ,
+#yngwdata #contents_list li:nth-of-type(3) a,
+#yngwdata #contents_list li:nth-of-type(3) {
+margin-left:0;
+color:#000;
+background:#bbb;
+}
+#contents_box > nav li:nth-child(4n){margin-right:0;}
+#contents_box > nav li a{
+width:100%;
+padding:1.25em 0;
+text-align:center;
+}
+#contents_box > nav li:hover{background:#bbb;}
+#contents_box > nav li a:hover{
+background:#bbb;
+transform: translateX(0) ;
+}
+#side_p,#news_box > nav #sns{display:none;}
+#contents_box > nav h3{margin-left:15px;}
+#welcome #main h2{
+font-size:3em;
+line-height:1.2;
+margin-bottom:0.25em;
+}
+#welcome #main p{
+font-size:1.5em;
+margin-bottom:1em;
+}
+#welcome #main li{font-size:1.35em;}
+#welcome #main li.harf{font-size:1.25em;}
+#main > div{padding:2em 0;}
+#history #main > div{padding:0;}
+#history #main h2{
+font-size:1.75em;
+margin-bottom:0;
+}
+#history #main > div:nth-last-of-type(1){padding:0;}
+#history #main > div > section{padding:0;}
+#history th,
+#history td{
+padding-top:1em;
+font-weight:500;
+font-size:0.8em;
+}
+td:nth-of-type(1){width:5em;}
+#history table img{
+width:100%;
+height:auto;
+margin-top:0.5em;
+}
+}
+@media screen and (max-width:600px) {
+#history #contents_list li:nth-of-type(8) a,
+#dna #contents_list li:nth-of-type(7) a,
+#concept #contents_list li:nth-of-type(6) a,
+#smart #contents_list li:nth-of-type(5) a,
+#policy #contents_list li:nth-of-type(4) a,
+#message #contents_list li:nth-of-type(2) a,
+#welcome #contents_list li:nth-of-type(1) a,
+#yngwdata #contents_list li:nth-of-type(3) a{
+font-size:1em;
+}
+.global_title br{display:inline;}
+.global_title span{display:none;}
+#concept #main > div h3 span{
+display:block;
+font-size:0.5em;
+padding:0.5em 1em;
+margin-right:0;
+width:6em;
+}
+#voice dd:nth-of-type(1){display:block;}
+#voice dd:nth-of-type(1) p:nth-of-type(1){width:100%;}
+#voice dd:nth-of-type(1) p:nth-of-type(1) span span br{display:none;}
+#voice dd:nth-of-type(1) p:nth-of-type(2){
+width:100%;
+margin-top:1em !important;
+}
+#dna #main h2{
+font-size:2em;
+margin-bottom:0.5em;
+}
+#dna #main >div h2{font-size:2.25em;}
+.dna_title{
+display:block;
+margin-top:0;
+}
+#dna #main > section{margin-bottom:1em;}
+.dna_title > p{
+width:70%;
+margin:0 auto 1rem;
+}
+.dna_title img{
+width:100%;
+height:auto;
+}
+#main div section .dna_title > p{
+width:50%;
+margin:0 auto;
+}
+#dna #main h3,#dna_name{
+font-size:1em;
+margin:1.5em 0 0.5em;
+font-weight:800;
+text-align:center;
+}
+#dna #main h3 span,#dna_name span{
+display:block;
+font-size:1.5em;
+}
+.dna_con p{
+text-align:justify;
+line-height:2;
+font-weight:700;
+margin-bottom:1em;
+}
+.dna_con p img{
+width:100%;
+height:auto;
+}
+}
+@media screen and (max-width:480px) {
+#welcome #main p,#welcome #main li.harf{font-size:1em;}
+#main > div{padding:1em 0;}
+#main > div:nth-last-of-type(1){padding:1em 0 0;}
+#concept #main > section > dl dt{
+font-weight:700;
+font-size:1em;
+}
+#concept #main > section > dl dd h3{font-size:1.75em;}
+#concept #main > section > dl dd{
+font-size:1em;
+line-height:1.75;
+}
+#concept #main > section > dl dd h2{font-size:1.5em;}
+#current h2{
+font-size:1.5em;
+margin-bottom:0.2em;
+}
+#concept #main > div dt{font-size:2em;}
+#concept #main > div h3{font-size:1.5em;}
+#concept #main > section h2+p{font-weight:500;}
+#concept #main > section > dl dt img{padding-bottom:0.25em;}
+#smart #main > section > dl dt{
+font-weight:700;
+font-size:1em;
+}
+#smart #main > section > dl dd h3{font-size:1.75em;}
+#smart #main > section > dl dd{
+font-size:1em;
+line-height:1.75;
+}
+#smart #main > div dt{font-size:2em;}
+#smart #main > div h3{font-size:1.5em;}
+#smart #main > section h2+p{font-weight:500;}
+#global_banner a{height:270px;}
+#voice dt{font-size:1.5em !important;}
+#voice dd:nth-of-type(1) p:nth-of-type(1) span span{font-size:1.1em;}
+#current ul li{
+font-size:1em;
+margin-top:1em;
+}
+#global_banner > a > span:nth-of-type(1){font-size:1.75em;}
+.dna_con section{display:block;}
+.dna_con section p{width:100%;}
+#dna #main .dna_con h2{
+font-size:1.5rem;
+}
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+#welcome #main section{
+width:80%;
+margin:3em auto 0;
+}
+#welcome #main li{font-size:2em;}
+#welcome #main li.harf{font-size:1.5em;}
+#side_p{display:none !important;}
+#voice dt br{display:inline;}
+#message #main section{
+margin:3em auto 0;
+}
+#yngwdata #main section{
+margin-top:2em;
+}
+#history h2{
+margin-left:10%;
+}
+#history table{
+width:80%;
+margin:1em auto;
+}
+td:nth-of-type(1){width:8em;}
+#history th,#history td{padding-top:2em;}
+#history table img{
+width:70%;
+display:block;
+height:auto;
+margin-top:0.5em;
+}
+#policy #main section{
+width:80%;
+margin:3em auto 0;
+}
+#concept #main > section{
+width:80%;
+margin:3em auto 0;
+}
+#concept #main > div > section{
+width:90%;
+margin:auto;
+}
+#smart #main > section{
+width:80%;
+margin:3em auto 0;
+}
+#smart #main > div > section{
+width:90%;
+margin:auto;
+}
+#dna #main > section{
+width:80%;
+margin:2em auto;
+}
+#dna #main > div > section{
+width:90%;
+margin:auto;
+}
+#policy dd{
+font-size:1em;
+}
+#history #main > section{
+margin:3em auto 0;
+}
+}
